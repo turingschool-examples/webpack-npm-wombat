@@ -1,0 +1,34 @@
+body {
+  background-color: #F04F39;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wombat-container {
+  margin-top: 7%;
+  padding: 60px 75px;
+  background: radial-gradient(closest-side, #fff, #fff, #F04F39);
+}
+
+.wombat {
+  height: 300px;
+  width: auto;
+}
+
+.new-wombat {
+  margin-top: 25px;
+  padding: 12.5px 17.5px;
+  font-size: 120%;
+  transition: background-color 0.5s ease;
+  background-color: #FDE9E6;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.new-wombat:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
