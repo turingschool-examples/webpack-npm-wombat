@@ -19,11 +19,11 @@ body {
 
 .new-wombat {
   margin-top: 25px;
-  padding: 12.5px 17.5px;
+  padding: 10px 30px;
   font-size: 120%;
   transition: background-color 0.5s ease;
   background-color: #FDE9E6;
-  border-radius: 2px;
+  border-radius: 4px;
   border: none;
   outline: none;
 }
